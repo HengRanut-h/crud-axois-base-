@@ -1,0 +1,42 @@
+.student-list-page {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    font-family: Arial, sans-serif;
+}
+
+.student-list-page h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.student-table {
+    width: 80%;
+    max-width: 800px;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.student-table th,
+.student-table td {
+    border: 1px solid #b10606;
+    padding: 10px;
+    text-align: center;
+}
+
+.student-table tr {
+    background-color: #ffffff;
+    color: #393939;
+    border-color: #111827;
+}
+
+.btn{
+    margin-left: 10px;
+}
+.btn-create{
+    margin-left: 680px;
+    margin-bottom: 20px;
+}

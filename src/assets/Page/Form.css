@@ -1,0 +1,61 @@
+.form-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
+}
+
+.form-title {
+    margin-bottom: 30px;
+    color: #111827;
+}
+
+.student-form {
+    width: 350px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.student-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #374151;
+}
+
+.student-form input,
+.student-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.student-form input:focus,
+.student-form select:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.student-form button {
+    width: 100%;
+    padding: 11px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.student-form button:hover {
+    background-color: #1d4ed8;
+}
